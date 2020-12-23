@@ -11,3 +11,21 @@
   App.cable = ActionCable.createConsumer();
 
 }).call(this);
+
+// const formObject = {
+//   name: 'Gerald',
+//   species: 'Speckled Gator'
+// }
+
+// let configObject =  { 
+//       method: 'POST', 
+//       headers: {
+//         'Content-Type': 'application/json',
+//         'Accept': 'application/json'
+//       },
+//       body: JSON.stringify(formObject)
+//   }
+
+//   fetch('http://localhost:3000/birds', configObject)
+//     .then(response => response.json())
+//     .then(bird => console.log(bird))
